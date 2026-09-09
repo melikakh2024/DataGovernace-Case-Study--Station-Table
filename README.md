@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 [Data Governance](./Images/dg.jpg)
 
 ![Static Badge](https://img.shields.io/badge/%D9%90DataGovernance-blue?style=flat)
@@ -41,3 +42,5 @@ mapping table (scalable to N teams without policy duplication)
 — [User role assignment (steward role)](./Images/user.png)
 - [prfiler Data](./Images/profiler .png)
 
+=======
+>>>>>>> b72881bab93172611f9454b44b7162bdd90cb0c5
