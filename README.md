@@ -1,12 +1,11 @@
 
-<<<<<<< HEAD
-[Data Governance](./Images/dg.jpg)
+![Data Governance](./Images/dg.jpg)
 
 ![Static Badge](https://img.shields.io/badge/%D9%90DataGovernance-blue?style=flat)
 # Data Governance Implementation on Station Table
 
 ## Part of the Weather Data Pipeline project
-Applied  data governance practices on real weather pipline
+Applied  data governance practices on real weather pipeline
 ( station-level data) using OpenMetadata, covering schema definition,
 data quality, and access control planning .
 
@@ -15,10 +14,10 @@ data quality, and access control planning .
 
 ### 1. Inconsistent ID format across regions
 **problem:** Inconsistant ID format across differnt regions (hypothetical example: (Austia AT-0989)(Germany  123454)
-**Solution:** Defined as CHAR (fixed-length) with regext pattern[x]
+**Solution:** Defined as CHAR (fixed-length) with regex pattern[x]
 **Status:** Documented/Implemented in pipline
 
-### 2. Invalid lattitude/longitude ranges
+### 2. Invalid latitude/longitude ranges
 **Problem:** No validation existed for coordinate bounds (hypothetical example: lan: 100 , long 290)
 **Solution:** added openMetaData  Data Qulaity tests
 (columnValuesTobetween: lat -90/90 , long -180/ 180)
@@ -35,12 +34,10 @@ mapping table (scalable to N teams without policy duplication)
 **Status:** Designed, not yet implemented in this exercise
 
 ## Screenshots
-— [Glossary definitions for station columns](./Images/glossary.png)
-— [Column-level metadata (owner, tags, glossary links)](./Images/DG.png)
-— [Data Quality test cases and results](./Images/tests.png)
-- [Team structure (Data engineer Team / Austria Team)](./Images/TEAM .png)
-— [User role assignment (steward role)](./Images/user.png)
-- [prfiler Data](./Images/profiler .png)
+- [Glossary definitions for station columns](./Images/glossary.png)
+- [Column-level metadata:owner, tags, glossary links](./Images/DG.png)
+- [Data Quality test cases and results](./Images/tests.png)
+- [Team structure: Data engineerTeam , Austria Team](./Images/TEAM.png)
+- [User role assignment (steward role)](./Images/user.png)
+- [profiler Data](./Images/profiler.png)
 
-=======
->>>>>>> b72881bab93172611f9454b44b7162bdd90cb0c5
